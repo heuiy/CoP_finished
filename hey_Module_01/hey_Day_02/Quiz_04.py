@@ -1,10 +1,10 @@
-### ♧♣ Quiz 01
+### ♧♣ Quiz 04
 
 # 1. 'data/titanic_train.csv'파일을 로드하여 df (DataFrame)에 저장하고 내용을 출력하시오.
 
 import pandas as pd
 
-df = pd.read_csv('data/titanic_train.csv')
+df = pd.read_csv("https://raw.githubusercontent.com/heuiy/data/main/AI_Camp/titanic_train.csv")
 df
 
 # 2. df (DataFrame)의 컬럼 중 'Name', 'Fare', 'Cabin' 을 영구히 삭제하고 내용을 출력하시오.
