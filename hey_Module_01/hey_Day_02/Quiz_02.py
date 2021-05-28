@@ -36,7 +36,7 @@ df.apply(f, axis=0)
 # - 열: item의 값
 # - 값: value
 
-data = pd.read_csv('data/macrodata.csv')
+data = pd.read_csv("https://raw.githubusercontent.com/heuiy/data/main/AI_Camp/macrodata.csv")
 
 periods = pd.PeriodIndex(year=data.year, quarter=data.quarter, name='date')
 columns = pd.Index(['realgdp', 'infl', 'unemp'], name='item')
