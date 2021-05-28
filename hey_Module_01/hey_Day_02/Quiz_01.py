@@ -20,7 +20,8 @@ for i in range(1, 10):
    
 
 # 3. 다음의 문자를 모스부호로 암호화 하시오.
-# 문제 : HE GETS UP LATE
+
+# 문자 : HE GETS UP LATE
 
 # 모스부호
 dic = {
