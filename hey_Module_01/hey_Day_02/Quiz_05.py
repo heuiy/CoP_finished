@@ -14,7 +14,7 @@ from sklearn import metrics
 
 # 1. 'data/fish.csv'파일을 로드하여 df (DataFrame)에 저장하고 내용을 출력하시오.
 
-df = pd.read_csv('data/fish.csv')
+df = pd.read_csv("https://raw.githubusercontent.com/heuiy/data/main/AI_Camp/fish.csv")
 df
 
 # 2. 컬럼 'Depth'의 제곱값을 구하여 df (DataFrame)의 컬럼에 추가하시오.
