@@ -37,9 +37,6 @@ https://pypi.org/
 - 딘싸 자체 패키지?
 - 법인 dxlss 패키지 : 안득호P, 백인엽P, 전성범P 외
 
-# cmd
-- Win + r > cmd > python > 1+2 실습
- 
 # 원노트
 - 프로그래밍은 스토리텔링, 기획력, 구조화하는 능력임
 - 프로그래밍은 테크닉이나 어려운 코드 작성 능력이 아님
@@ -63,4 +60,9 @@ https://pypi.org/
 - 모든 PC 에 파이썬 설치 불가
 - 스크립트(.py)는 가벼운 실행 파일로 변환
 - 간단한 .exe 예제 파일 확인
+
+# Interactive vs Script language
+- Interactive : Win + r > cmd > python > 1+2 실습
+- Script : 메모장 .py 파일 작성 > cmd 에서 .py 실행
+
 
