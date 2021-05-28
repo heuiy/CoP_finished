@@ -5,7 +5,7 @@
 
 import pandas as pd
 
-tips = pd.read_csv('data/tips.csv')
+tips = pd.read_csv("https://raw.githubusercontent.com/heuiy/data/main/AI_Camp/tips.csv")
 tips
 
 tips = tips.drop(['tip', 'size'], axis=1)
@@ -17,7 +17,7 @@ grouped.agg(['mean', 'sum'])
 
 import pandas as pd
 
-df = pd.read_csv('data/washing_machine.csv')
+df = pd.read_csv("https://raw.githubusercontent.com/heuiy/data/main/AI_Camp/washing_machine.csv")
 
 df[df['event_type'] == 'WM_STATE']['device_id'].value_counts()
 
@@ -28,7 +28,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 get_ipython().run_line_magic('matplotlib', 'inline')
 
-df = pd.read_csv('data/washing_machine.csv')
+df = pd.read_csv("https://raw.githubusercontent.com/heuiy/data/main/AI_Camp/washing_machine.csv")
 df
 
 df['create_dt_utc'].head
