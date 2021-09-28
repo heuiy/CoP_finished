@@ -1,4 +1,4 @@
-# 완제생산팀 딥딥딥러닝!!
+# 완제생산팀 AI 학습공동체!
 
 ![928f90bcd221f78a30f18541a5ca2e7f](https://user-images.githubusercontent.com/52515917/111857507-4a8f0d00-8975-11eb-93d9-c896eb19a561.jpg)
 
